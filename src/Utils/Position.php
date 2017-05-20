@@ -2,7 +2,7 @@
 
 namespace Steganography\Utils;
 
-class Position implements Iterator ,Countable {
+class Position implements \Iterator ,\Countable {
 
     public $region = null;
     public $x;
